@@ -1,0 +1,22 @@
+<html>
+<head>
+    <h1> Let's Upgrade</h1>
+    <h1>
+    This is my Third assignment in Day 2
+    </h1>     
+            
+    
+</head>
+<body>
+<p>Date/Time(mm/dd/yyyy): <span id="datetime"></span></p>
+<p>Date-Time(mm-dd-yyyy): <span id="date-time"></span></p>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) ;
+</script>
+<script>
+    var dt = new Date();
+    document.getElementById("date-time").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"-"+ (("0"+dt.getDate()).slice(-2)) +"-"+ (dt.getFullYear()) ;
+    </script>
+</body>
+</html>
