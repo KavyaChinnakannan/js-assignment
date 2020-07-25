@@ -1,0 +1,11 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+    position: absolute;
+    height: 500%;
+    width: 500%;
+}
